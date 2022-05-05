@@ -53,10 +53,6 @@ export class Form extends Component {
                      {this.state.Ticform && <Ticket {...this.state} {...this.props} />}
                      </div>
                 </div>
-
-
-
-
             </>
         )
     }

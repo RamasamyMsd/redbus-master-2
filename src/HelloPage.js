@@ -152,17 +152,11 @@ class HelloPage extends React.Component {
             </>
         )
     }
-
 }
 function mapStateToProps(state) {
     console.log(state)
     return{
     stateValue:state,
-    }
-    
-  }
-  
+    }    
+}
 export default connect(mapStateToProps, null)(HelloPage);
-
-
-// export default HelloPage;
