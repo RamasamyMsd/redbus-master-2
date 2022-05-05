@@ -1,0 +1,93 @@
+.Container1{
+    margin-left: 23%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    height: 300px;
+    width: 1300px;
+    /* background-color: #bbb; */
+    /* box-shadow: inset 1px 1px 0 #aaa, inset 0 -1px 0 #aaa; */
+    border: 1px solid rgba(158, 157, 157, 0.899); 
+    position: relative;
+    padding: 10px;
+}
+.Dis2{
+    display: flex;
+    /* justify-content: space-around; */
+    /* position: absolute; */
+    right: 15%;
+    bottom: 11px;
+    font-size: 18px;
+    align-items: center;
+    opacity: 0;
+    margin-top: -3%;
+    margin-left: 37%;
+    
+}
+
+.Container1:hover  {
+    border: 0.4px solid;
+    transition:  0.4s linear;
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(234, 233, 233, 0.794)
+}
+.Container1:hover ~ .Dis2{
+    transition:  0.4s linear;
+    opacity: 1;
+}
+
+.LowerPart{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    /* margin-top: -2%; */
+}
+
+
+.DisValueleft{
+    border-left: 1px solid;
+    border-right: 1px solid;
+     padding: 5px;
+     cursor: pointer;
+}
+.DisValue{
+
+    border-right: 1px solid;
+    padding: 5px;
+    align-items: center;
+}
+.Container1 h3{
+     font-size: 20px;
+     margin-left: 2%;
+}
+.Container1 p{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.Dis p{
+    margin-top: 40px;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.Dis1 h3{
+    margin-top: 40px;
+    font-size: 16px;
+    margin-left: 2%;
+}
+.Btn{
+    height: 50px;
+    width:100px;
+    background-color:#c95a49 ;
+    color: #fff;
+    display: flex;
+    justify-content: stretch;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 8px;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+.Btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

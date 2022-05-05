@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.bus-container {
+  margin: 20px 10px;
+  margin-left: 30%;
+  height: 500px;
+  width: 1000px;
+  background-color: lightgray;
+  position: relative;
+}
+
+
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  position: relative;
+}
+
+.seat,.notseat {
+  background-color: #444451;
+  height: 40px;
+  width: 25px;
+  margin: 8px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.notseat {
+  background-color: #ffff;
+}
+
+.small {
+  font-size: 20px;
+}
+
+.seat.selected {
+  background-color:black;
+}
+
+.seat.occupied {
+  background-color: #fff;
+}
+
+.seat:nth-of-type(2) {
+  margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+  margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+.showcase {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.showcase li small {
+  margin-left: 2px;
+}
+
+.row {
+  display: flex;
+}
+
+p.text span {
+  color: black;
+}
+.tic p {
+  font-size: 20px;
+  padding:10px ;
+}
+.tic p span{
+  margin-left: 10px;
+}
+
+.Buy,.buy {
+  height: 50px;
+  width: 100px;
+  margin-left: 80%;
+  background-color: #c95a49;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0%;
+}
+
+.Btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

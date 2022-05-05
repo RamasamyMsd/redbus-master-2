@@ -1,0 +1,21 @@
+.Container-Ticket{
+    position:absolute;
+    border: 1px solid black;
+    width: 1000px;
+    height: 800px;
+    bottom: 10px;
+    top: 1px;
+    background-color:lavenderblush
+}
+.Container-Ticket h3{
+    padding: 12px;
+    margin-left: 182px;
+}
+.Tic1{
+    width:500px;
+    margin: 10 auto;
+    padding: 15px;
+ }
+ label{
+     padding: 10px;
+ }

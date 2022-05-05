@@ -1,0 +1,42 @@
+.sidebar{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    width:17%;
+    height: 10px;
+    z-index: 1;
+    margin-bottom: 10%;
+}
+.sidebar nav{
+    height: 100%;
+}
+.sidebar ul{
+    height: 100%;
+
+}
+/* .main{
+     display: grid;
+    grid-template-columns: 100px 1fr;
+} */
+/* .sidebar .logo{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    border: 1px solid black;
+    height: 5%;
+} */
+.sidebar a{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    padding: 9%;
+    border-bottom:1px #5c5c68 solid;
+    margin-left: 10%;
+    position: relative;
+}
+.sidebar h2{
+    font-size: 3rem;
+    margin-left: 11%;
+}

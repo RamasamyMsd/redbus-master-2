@@ -1,0 +1,46 @@
+.container-Tic {
+    position:absolute;
+    font-family: Arial;
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    bottom: 5px;
+    background-color:beige;
+    z-index: 1;
+    margin: 0 auto;
+}
+.User-Container{
+    
+    left: 50rem;
+    right: 4rem;
+   
+    color:black;
+   
+    font-size: 28px;
+    display: block;
+}
+.Tic{
+   width:200px;
+   margin: 0 auto;
+   padding: 10px;
+}
+.input {
+  display: block;
+  color:black;
+  margin-top: 7%;
+  margin-left: 50px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid black;
+}
+#btn4{
+
+  height: 50px;
+  width: 100px;
+  margin-left: 80%;
+  background-color: #c95a49;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5%;
+}
